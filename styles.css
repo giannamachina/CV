@@ -1,3 +1,13 @@
-h1(
+h1{
 	color: red;
-)
+}
+
+.Grand-rectangle-gauche{
+	background-color: grey;
+	width: 34%; 
+}
+.Grand-rectangle-droit{
+	background-color: grey;
+	width: 66%;
+}
+
