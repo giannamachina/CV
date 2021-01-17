@@ -11,3 +11,7 @@ h1{
 	width: 66%;
 }
 
+.Grand-rectangle-gauche-section-title{
+	display: flex;
+	flex direction: row;
+}
