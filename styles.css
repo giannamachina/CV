@@ -1,17 +1,36 @@
 h1{
-	color: red;
+	color: grey;
 }
+
+h3{
+	color: blue;
+}
+
+body{
+	font-size: 15px;
+	display: flex;
+	flex-direction: row;
+}
+ 
 
 .Grand-rectangle-gauche{
 	background-color: white;
-	width: 34%; 
-}
-.Grand-rectangle-droit{
-	background-color: white;
-	width: 66%;
+	width: 20%; 
 }
 
-.Grand-rectangle-gauche-section-title{
+.Grand-rectangle-droit{
+	background-color: white;
+	width: 80%;
+}
+
+div class .mots-droite{
 	display: flex;
 	flex direction: row;
+	width: 25%
+}
+
+div class .mots-gauche{
+	display: flex;
+	flex direction: row;
+	width: 25%
 }
