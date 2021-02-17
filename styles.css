@@ -1,9 +1,9 @@
 h1{
-	color: grey;
+	color: 	#E0D8CF;
 }
 
 h3{
-	color: blue;
+	color: #E0D8CF;
 }
 
 body{
@@ -15,7 +15,7 @@ body{
 
 .Grand-rectangle-gauche{
 	background-color: white;
-	width: 20%; 
+	width: 40%; 
 }
 
 .Grand-rectangle-droit{
@@ -33,4 +33,14 @@ div class .mots-gauche{
 	display: flex;
 	flex direction: row;
 	width: 25%
+}
+
+#wrap{
+	display: flex;
+	justify-content: space-around;
+}
+
+.picto{
+	width: 60%;
+	border: 1px; 
 }
