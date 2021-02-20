@@ -2,7 +2,7 @@ h1{
 	color: 	#E0D8CF;
 }
 
-h3{
+h3{ 
 	color: #E0D8CF;
 }
 
@@ -12,28 +12,26 @@ body{
 	flex-direction: row;
 }
  
+img{
+	width: 50%
+
+}
+
+.ronde{
+	border-radius:  50%
+}
+
 
 .Grand-rectangle-gauche{
-	background-color: white;
-	width: 40%; 
+	background-color:  #E0D8CF;
+	width: 25%; 
 }
 
 .Grand-rectangle-droit{
 	background-color: white;
-	width: 80%;
+	width: 50%;
 }
 
-div class .mots-droite{
-	display: flex;
-	flex direction: row;
-	width: 25%
-}
-
-div class .mots-gauche{
-	display: flex;
-	flex direction: row;
-	width: 25%
-}
 
 #wrap{
 	display: flex;
@@ -41,6 +39,6 @@ div class .mots-gauche{
 }
 
 .picto{
-	width: 60%;
+	width: 40%;
 	border: 1px; 
 }
