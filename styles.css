@@ -4,6 +4,10 @@ h1{
 
 h3{ 
 	color: #E0D8CF;
+	text-align: center;
+	width: 100px
+	height: 50px;
+	background: #735E59;
 }
 
 body{
@@ -11,25 +15,23 @@ body{
 	display: flex;
 	flex-direction: row;
 }
- 
+
 img{
 	width: 50%;
-
 }
 
 .ronde{
 	border-radius:  50%
 }
 
-
 .Grand-rectangle-gauche{
 	background-color:  #E0D8CF;
-	width: 25%; 
+	width: 40%; 
 }
 
 .Grand-rectangle-droit{
 	background-color: white;
-	width: 50%;
+	width: 70%;
 }
 
 
@@ -39,7 +41,6 @@ img{
 }
 
 .picto{
-	width: 40%;
-	border: 1px; 
+	width: 15%;
 }
 
