@@ -1,5 +1,8 @@
 h1{
 	color: 	#E0D8CF;
+	width: 100px;
+	height: 50px;
+	background: #735E59;
 }
 
 h3{ 
@@ -11,22 +14,25 @@ h3{
 }
 
 body{
-	font-size: 15px;
+	font-size: 20px;
 	display: flex;
 	flex-direction: row;
 }
 
-img{
-	width: 50%;
+#text{ text-align: center;
 }
 
-.ronde{
-	border-radius:  50%
+
+.image{
+	border-radius: 40%
+	width:50%;
+	text-align: center;
+	margin: auto;
 }
 
 .Grand-rectangle-gauche{
 	background-color:  #E0D8CF;
-	width: 40%; 
+	width: 50%; 
 }
 
 .Grand-rectangle-droit{
@@ -37,10 +43,9 @@ img{
 
 #wrap{
 	display: flex;
-	justify-content: space-around;
+	flex-direction: row;
 }
 
 .picto{
-	width: 15%;
+	width: 60%;
 }
-
