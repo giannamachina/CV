@@ -1,0 +1,95 @@
+/*GENERAL*/
+
+body{
+	margin: 0;
+}
+
+.wrap{
+	display: flex;
+	justify-content: space-between;
+}
+
+#rectangle-droit, #rectangle-gauche{
+	width: 50%;
+} 
+/*lorqu'on met une virgule pour séparer 
+les éléments dans le css, cela veut dire "et"*/
+
+.center{
+	text-align: center;
+	background-color: #745E59;
+	color: white;
+	padding: 10px;
+}
+
+h3{
+	margin-bottom: 0;
+}
+
+h4{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+
+a{
+	text-decoration: none;
+}
+
+.clear{
+	clear: both;
+}
+
+/*RECTANGLE GAUCHE*/
+#rectangle-gauche{
+	background-color: #E1D8CF;
+}
+#rectangle-gauche li{
+	list-style-type: none;
+}
+
+#photo_profil img{
+	margin-left: 50%;
+	margin-right: 50%;
+}
+
+.ronde{
+   border-radius: 50%
+   height:150px;
+   align-content: center;
+
+}
+
+/*RECTANGLE DROIT*/
+#rectangle-droit ul{
+	margin-top: 0;
+}
+
+#titre{
+	height: 100px;
+/*	si tu modifies la height il faudra changer le line-height pour que
+	ton titre reste centré*/
+	line-height: 6em;
+	/*permet de centrer ton titre h1*/
+	background-color: #745E59;
+}
+#experience, #diplome{
+	padding: 40px;
+}
+
+h1{
+	width: 100%;
+	color: white;
+	text-align: center;
+}
+
+/*COMPETENCES*/
+
+.picto{
+	width: 45%;
+}
+
+.picto p, .picto img {
+	float: left;
+}
