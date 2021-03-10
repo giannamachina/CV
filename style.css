@@ -2,6 +2,7 @@
 
 body{
 	margin: 0;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .wrap{
@@ -9,16 +10,14 @@ body{
 	justify-content: space-between;
 }
 
-#rectangle-droit, #rectangle-gauche{
-	width: 50%;
-} 
 /*lorqu'on met une virgule pour séparer 
 les éléments dans le css, cela veut dire "et"*/
 
 .center{
+	font-family: 'Roboto Slab', serif;
 	text-align: center;
 	background-color: #745E59;
-	color: white;
+	color: #E0D8CF;
 	padding: 10px;
 }
 
@@ -32,7 +31,6 @@ h4{
 }
 
 
-
 a{
 	text-decoration: none;
 }
@@ -43,6 +41,7 @@ a{
 
 /*RECTANGLE GAUCHE*/
 #rectangle-gauche{
+	width: 35%;
 	background-color: #E1D8CF;
 }
 #rectangle-gauche li{
@@ -50,27 +49,32 @@ a{
 }
 
 #photo_profil img{
-	margin-left: 50%;
-	margin-right: 50%;
+	margin-left: 20%;
+	margin-right: 20%;
 }
 
-.ronde{
-   border-radius: 50%
-   height:150px;
-   align-content: center;
+#contact,#competence,#interet{
+	padding: 25px
+}
 
+#contact{
+	text-align: center;
 }
 
 /*RECTANGLE DROIT*/
+
+#rectangle-droit{
+	width: 70%;
+}
 #rectangle-droit ul{
 	margin-top: 0;
 }
 
 #titre{
-	height: 100px;
+	height: 190px;
 /*	si tu modifies la height il faudra changer le line-height pour que
 	ton titre reste centré*/
-	line-height: 6em;
+	line-height: 12em;
 	/*permet de centrer ton titre h1*/
 	background-color: #745E59;
 }
@@ -80,16 +84,19 @@ a{
 
 h1{
 	width: 100%;
-	color: white;
+	color: #E0D8CF;
 	text-align: center;
+	font-family: 'Roboto Slab', serif;
 }
 
 /*COMPETENCES*/
 
 .picto{
-	width: 45%;
+	width: 80%;
 }
 
 .picto p, .picto img {
 	float: left;
+	height: 38px
 }
+
